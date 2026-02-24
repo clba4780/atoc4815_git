@@ -4,6 +4,8 @@ Welcome! This repository is a space to practice Git commands. If something goes 
 
 ## Quick Setup
 
+hi
+
 ```bash
 # fork this repo first!! 
 
