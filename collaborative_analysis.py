@@ -1,15 +1,10 @@
 """
-<<<<<<< HEAD
 Collaborative Weather Analysis -- edited on main
-=======
-Collaborative Weather Analysis -- edited on conflict-test
->>>>>>> conflict-test
 ATOC 4815/5815 - Git Collaboration Exercise
 Instructions:
   - Partner A: Complete the functions in SECTION A (temperature analysis)
   - Partner B: Complete the functions in SECTION B (wind chill & heat index)
   - Each partner works on there OWN branch, then merge via pull requests.
-
 When both sections are complete, run:
     python collaborative_analysis.py
 
@@ -55,7 +50,8 @@ def celsius_to_fahrenheit(temp_c):
         Temperature in Fahrenheit.
     """
     # TODO (Partner A): implement the conversion
-    pass
+    temp_f = temp_c * 9/5 + 32
+    return temp_f
 
 
 def daily_temp_range(high_f, low_f):
