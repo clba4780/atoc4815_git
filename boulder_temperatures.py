@@ -1,6 +1,7 @@
 """
 Boulder January 2025 Temperature Analysis
 ATOC 4815/5815 - Git Practice Exercise 3
+Clara's Practice Branch
 
 Instructions:
     1. Add your name below

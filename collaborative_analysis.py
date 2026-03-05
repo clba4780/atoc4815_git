@@ -35,8 +35,8 @@ def fahrenheit_to_celsius(temp_f):
     float
         Temperature in Celsius.
     """
-    # TODO (Partner A): implement the conversion
-    pass
+    temp_c = ((temp_f)-32) * 5/9
+    return temp_c
 
 
 def celsius_to_fahrenheit(temp_c):
@@ -54,8 +54,8 @@ def celsius_to_fahrenheit(temp_c):
     float
         Temperature in Fahrenheit.
     """
-    # TODO (Partner A): implement the conversion
-    pass
+    temp_f = (temp_c*9/5) + 32
+    return temp_c
 
 
 def daily_temp_range(high_f, low_f):
@@ -73,8 +73,9 @@ def daily_temp_range(high_f, low_f):
     dict
         {"range_f": float, "range_c": float}
     """
-    # TODO (Partner A): compute range in F and convert to C
-    pass
+    temp_range_f = high_f - low_f
+    temp_range_c = (temp_range_f - 32) * 5/9
+    return (f"Temperature Range: {temp_range_f}F, {temp_range_c:0.1f}C")
 
 
 # ============================================================
